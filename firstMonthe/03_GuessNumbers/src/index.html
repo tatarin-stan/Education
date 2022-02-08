@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="content">
+    
+        <h1>Guess The Number</h1>
+
+        <p>Hi, I am thinking of a number between 0 and <input id="Max" class="Max">.</p>
+        <p>Try to guess it in <input id="try" class="try">  tries</p>
+
+        <div id="answer" class=""></div>
+
+        <div class="btns">
+            <button type="button" id="start" class="start-btn" onclick="start()">START</button> <!-- call Function-->
+            <button type="button" id="end" class="end-btn" onclick="window.location.reload()">END</button>
+        </div>
+
+        <div id="main-div" class="main-div">
+            Enter the guess -> <input type="text" id="guess-box" class="guess-box">
+            <button type="button" id="check" class="check-btn" onclick="checkGuess()">GENERATE.</button>
+
+            <div id="all-guesses">Your Guess: </div>
+            <div id="high-or-low" class=""></div>
+        </div>
+
+        <script src="main.js"></script>
+    </div>
+
+</body>
+</html>

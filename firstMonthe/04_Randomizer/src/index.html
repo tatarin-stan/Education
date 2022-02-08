@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Randomizer</title>
+
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+<div class="content">
+
+        <h1>Randomizer</h1>
+
+        <div class="input">
+            <input id="minValue" class="input__min-value"  >
+            <input id="maxValue" class="input__max-value"  >
+        </div>
+
+        <div class="btns">
+            <button type="button" id="start" class="btn__start-btn" onclick="GenerateTest()"> Start </button>
+            <button type="button" id="reset" class="btn__reset-btn" onclick="reset()">Reset</button>
+        </div>
+
+        <div class="answer">
+            <div id='answer' class='answer__answer-area'> </div>
+        </div>
+
+
+</div>
+
+<script src="functional.js"></script>
+</body>
+</html>
