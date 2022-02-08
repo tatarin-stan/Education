@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.main-window{
+  //border: 2px solid red;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-top: 5%;
+
+  &__screen{
+    font-size: 100px;
+    color: white;
+
+    background-color: #2f2d2d;
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    justify-content: flex-end;
+
+    &_result{
+      color: white;
+      padding: 20px 20px;
+    }
+  }
+
+  &__button{
+    font-size: 35px;
+    font-weight: 300;
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+
+    .btn{
+      width: 10%;
+      height: 60px;
+      text-align: center;
+      padding-top: 15px;
+      outline: 0.5px solid gray;
+    }
+
+    .notouch{
+      background-color: pink;
+    }
+
+    .btn:hover{
+      background-color: gray;
+    }
+
+    .btn:active{
+      background-color: orange;
+    }
+
+    .btn:last-child{
+      background-color: orange;
+    }
+
+    .btn:last-child:hover{
+      background-color: gray;
+    }
+
+    .btn:last-child:active{
+      background-color: orange;
+    }
+  }
+
+    .row-5 .btn-7{
+     width: 20%;
+    }
+
+    .row-5 .btn-7:hover{
+      background-color: gray;
+    }
+
+    .row-5 .btn-7:active{
+      background-color: orange;
+    }
+
+
+
+  }
+}
+
+.mNumber{
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+
+  margin-top: 50px;
+}
+
+
+
