@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.scss">
+    <title>Landing</title>
+</head>
+
+<body>
+<section>
+
+
+    <div class="container">
+
+        <div class="input-date">
+            <div class="name">
+                <span class="name__field">Name</span>
+                <input type="text" class="name__input" id="name__input">
+                <button class="name__button" id="name__button"> Generate </button>
+            </div>
+            <div class="balance">
+                <span class="balance__field">Balance</span>
+                <input type="text" class="balance__input" id="balance__input">
+                <button class="balance__button" id="balance__button"> Generate </button>
+            </div>
+            <div class="age">
+                <span class="age__field">Age</span>
+                <input type="text" class="age__input" id="age__input">
+                <button class="age__button" id="age__button"> Generate </button>
+            </div>
+            <div class="document">
+                <span class="document__field">Document</span>
+                <input type="text" class="document__input" id="document__input">
+                <button class="document__button" id="document__button"> Generate </button>
+            </div>
+            <div class="engllish-level">
+                <span class="level__field">Engllish level</span>
+                <input type="text" class="level__input" id="level__input">
+                <button class="level__button" id="level__button"> Generate </button>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="button__all button" id="button__all"> Generate all </button>
+            <button class="button__candidate button" id="button__candidate"> Generate candidate </button>
+            <button class="button__init button" id="button__init"> Init </button>
+            <button class="button__race button" id="button__race"> Race </button>
+            <button class="button__clear button" id="button__clear"> Clear </button>
+        </div>
+    </div>
+
+    <canvas id="canvas" height="500" width="1200"> </canvas>
+
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

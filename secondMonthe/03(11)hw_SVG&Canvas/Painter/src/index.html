@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Painter</title>
+</head>
+<body>
+
+    <div class="container">
+
+
+            <canvas id="canvas" height="600" width="1200"> </canvas>
+
+            <div class="color-input">
+                <div class="color-input__name">Color:</div>
+                <input type="color" id="color"  value="#FF0000">
+            </div>
+
+            <div class="slidecontainer">
+                <span> Range: 1</span>
+                <input type="range" min="1" max="50" value="25" class="slider" id="myRange">
+                <span>50</span>
+            </div>
+
+            <a id="download" class="btn btn-warning" onclick="downloadCanvas()">Download</a>
+
+
+    </div>
+
+
+
+    <script src="functional.js"></script>
+
+</body>
+</html>

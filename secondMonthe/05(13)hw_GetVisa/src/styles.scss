@@ -1,0 +1,32 @@
+.button__race{
+  background-color: pink;
+  cursor: not-allowed;
+}
+
+#canvas{
+  display: flex;
+  margin: 50px auto;
+  background-color: pink;
+
+}
+
+.input-date{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  div{
+    margin-bottom: 10px;
+  }
+}
+
+.buttons{
+  display: flex;
+  justify-content: end;
+
+  .button{
+    margin-left: 10px;
+    font-size: 20px;
+  }
+}
+

@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+}
+
+.scrollbox {
+  margin: 10px auto;
+  overflow: auto;
+  max-width: 1200px;
+  background: #ffffff;
+}
+.scrollbox__list img:hover {
+  position: relative;
+  top: -10px;
+  box-shadow: 1px 10px 17px 0px #5e5e5e;
+  cursor: pointer;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.main-photo {
+  position: relative;
+}
+.main-photo__img {
+  height: 500px;
+}
+.main-photo__closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.show-all {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  left: -500px;
+}
+.show-all:hover {
+  cursor: pointer;
+  background-color: pink;
+}
+
+/*# sourceMappingURL=styles.css.map */
